@@ -41,7 +41,7 @@
       overflow: hidden;
       blockquote {
         background-color: whitesmoke;
-        border: solid 2px rgba(159, 32, 0, 0.80);
+        border: solid 2px rgba(159, 32, 0, 0.8);
         line-height: 1.5em;
         display: inline-block;
         margin: 0;
@@ -87,8 +87,8 @@
         letter-spacing: 0px;
       }
 
-      .description {
-        margin: 20px 0;
+      #description {
+        margin: 10px 0;
         padding: 0 10px;
         font-weight: normal;
       }
@@ -103,6 +103,7 @@
         font-size: 20px;
         font-weight: bold;
         position: absolute;
+        bottom: 30px;
         right: 30px;
       }
     }
