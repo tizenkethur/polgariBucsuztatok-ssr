@@ -1,0 +1,14 @@
+<div id="person-card">
+  <div id="name-holder">
+    <p>
+      {{ personData.name }}
+    </p>
+  </div>
+  <div id="image-holder">
+    <img
+      [src]="personData.pictureUrl"
+      alt="Picture of {{ personData.name }}"
+      width="150px"
+    />
+  </div>
+</div>

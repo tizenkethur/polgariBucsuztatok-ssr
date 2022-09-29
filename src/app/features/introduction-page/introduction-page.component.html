@@ -1,2 +1,6 @@
-<app-header></app-header>
-<p>introduction-page works!</p>
+<div id="card-holder">
+  <app-introduction-tile
+    *ngFor="let person of farewellPersons"
+    [personData]="person"
+  ></app-introduction-tile>
+</div>

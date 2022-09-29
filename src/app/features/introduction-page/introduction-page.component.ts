@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { farewellPerson } from './../../shared/models/farewellPersons';
+import { Component } from '@angular/core';
+import { farewellPersonData } from 'src/db-data';
 
 @Component({
   selector: 'app-introduction-page',
   templateUrl: './introduction-page.component.html',
-  styleUrls: ['./introduction-page.component.scss']
+  styleUrls: ['./introduction-page.component.scss'],
 })
-export class IntroductionPageComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class IntroductionPageComponent {
+  farewellPersons = farewellPersonData;
 }
