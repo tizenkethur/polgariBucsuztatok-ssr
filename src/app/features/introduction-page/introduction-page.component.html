@@ -1,6 +1,14 @@
-<div id="card-holder">
-  <app-introduction-tile
-    *ngFor="let person of farewellPersons"
-    [personData]="person"
-  ></app-introduction-tile>
+<div id="introduction-page">
+  <div id="title">
+    <blockquote>
+      <p>Bemutatkozunk</p>
+    </blockquote>
+  </div>
+
+  <div id="card-holder">
+    <app-introduction-tile
+      *ngFor="let person of farewellPersons"
+      [personData]="person"
+    ></app-introduction-tile>
+  </div>
 </div>
