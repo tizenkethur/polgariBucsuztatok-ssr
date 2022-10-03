@@ -69,22 +69,28 @@ export const farewellPersonData: farewellPerson[] = [
   },
   {
     id: 3,
-    name: 'Nagy Klára',
-    pictureUrl: '../assets/farewellPersons/Nagy_Klára.jpg',
-    introduction: `1992 óta foglakozom polgári búcsúztatással, ezzel a nehéz, ám fontos és szép feladattal.
-    Pedagógus végzettséget szereztem, pszichológiát tanultam, és énekművészi tanulmányokat folytattam.
-    A hangképzésnek, beszédművelésnek ma is, – napi szinten – hasznát veszem a munkám során. Kezdettől arra törekszem, hogy – versekkel,
-    idézetekkel, szép, emberi gondolatokkal – pátosz nélkül – segítsem a gyászolókat fájdalmuk kifejezésében.
-    Célom, hogy a búcsúzást követően mindenki megnyugvással térhessen haza, – azzal az érzéssel, hogy méltóképpen, szépen köszönhetett el hozzátartozójától, barátjától,
-    kedves ismerősétől.
-    Az évek során számos család búcsúzott hozzátartozójától a közreműködésemmel – és igen sokan, – akár hosszú évek múltán, több alkalommal is – újra megkeresnek,
-    ha veszteség éri őket, ha ismét búcsúzni kényszerülnek.
-    A visszajelzések alapján a hozzátartozók pozitívan értékelik az empátia, a jó kapcsolatteremtő képesség mellett, – sokéves tapasztalatomat, felkészültségemet; és a nyugalmat, amivel igyekszem átsegíteni a gyászolókat ezen a nehéz órán, amit szerettük utolsó útja jelent számukra.`,
-    quote: '„Az utolsó szavak melege a semmibe is elkísér…”',
-    phone: '06 30 252 7559',
-    email: 'nagyklarav@gmail.com',
-    web: 'www.bucsuztato.hu',
-    facebook: 'https://www.facebook.com/profile.php?id=100083359909403',
+    name: 'Korsós László',
+    pictureUrl: '../assets/farewellPersons/Korsós_László.jpg',
+    introduction: `Korsós László vagyok, 1979-ben születtem Budapesten. Újságíróként végeztem
+tanulmányaimat, de 2008 óta polgári búcsúztatással foglalkozom. 
+Munkám során mindig az a célom, hogy a hozzám forduló családok, méltóképpen tudjanak
+búcsút venni hozzátartozójuktól. 
+Az elmúlás hiába életünk része, hiába tudjuk, hogy elkerülhetetlen, hiába készülünk rá
+tudásunk és hitünk szerint a legjobban, a szeretett személy elvesztését követő mély fájdalomra
+nem tudunk felkészülni. Ilyenkor úgy érezzük, hogy a világnak is meg kellene állnia, hiszen Ő
+már nincsen közöttünk. 
+A szertartás, a család és a barátok végső búcsúja. Fontos, hogy egyetlen oda nem illő szó se
+hangozzék el, minden mondatnak és gondolatnak hitelesnek kell lennie, és annak is kell
+maradnia. A búcsúnak nem nyomasztónak, hanem lelki békét, megnyugvást nyújtó emlékké
+kell válnia, ezzel is segítve a gyász feldolgozását. 
+A búcsúztatónak meg kell teremtenie azt a pillanatot, mikor a világ elcsendesül és minden
+Róla, a távozóról szól. 
+Én mindig erre törekszem…`,
+    quote: '',
+    phone: '+3620/363-33-60',
+    email: 'bucsuztatas1@hotmail.com',
+    web: '',
+    facebook: '',
   },
   {
     id: 4,
