@@ -1,4 +1,3 @@
-import { farewellPerson } from './../../shared/models/farewellPersons';
 import { Component } from '@angular/core';
 import { farewellPersonData } from 'src/db-data';
 

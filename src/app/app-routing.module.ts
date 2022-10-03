@@ -16,6 +16,13 @@ const routes: Routes = [
       ),
   },
   {
+    path: 'introduction/personal',
+    loadChildren: () =>
+      import('../app/features/introduction-page/personal/personal.module').then(
+        (m) => m.PersonalModule
+      ),
+  },
+  {
     path: '**',
     loadChildren: () =>
       import('./features/not-found/not-found.module').then(
