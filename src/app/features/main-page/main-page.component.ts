@@ -6,8 +6,11 @@ import { Component } from '@angular/core';
   templateUrl: './main-page.component.html',
   styleUrls: ['./main-page.component.scss'],
   animations: [
-    trigger('fade', [
-      transition('void => *', [style({ opacity: 0 }), animate(1000)]),
+    trigger('fadePic', [
+      transition('void => *', [style({ opacity: 0 }), animate(500)]),
+    ]),
+    trigger('fadeText', [
+      transition('void => *', [style({ opacity: 0 }), animate(1200)]),
     ]),
   ],
 })
