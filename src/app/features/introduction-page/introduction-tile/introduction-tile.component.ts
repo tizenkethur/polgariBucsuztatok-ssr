@@ -1,10 +1,3 @@
-import {
-  trigger,
-  transition,
-  animate,
-  keyframes,
-  style,
-} from '@angular/animations';
 import { Component, Input } from '@angular/core';
 import { farewellPerson } from 'src/app/shared/models/farewellPersons';
 

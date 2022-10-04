@@ -144,9 +144,9 @@ Róla, a távozóról szól. 
     ha veszteség éri őket, ha ismét búcsúzni kényszerülnek.
     A visszajelzések alapján a hozzátartozók pozitívan értékelik az empátia, a jó kapcsolatteremtő képesség mellett, – sokéves tapasztalatomat, felkészültségemet; és a nyugalmat, amivel igyekszem átsegíteni a gyászolókat ezen a nehéz órán, amit szerettük utolsó útja jelent számukra.`,
     quote: '„Az utolsó szavak melege a semmibe is elkísér…”',
-    phone: ' 06 30 252 7559',
+    phone: '06 30 252 7559',
     email: 'nagyklara@gmail.com',
-    web: 'www.bucsuztato.hu',
+    web: 'https://www.bucsuztato.hu',
     facebook: 'https://www.facebook.com/profile.php?id=100083359909403',
   },
 ];

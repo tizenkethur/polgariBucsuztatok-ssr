@@ -16,9 +16,9 @@ const routes: Routes = [
       ),
   },
   {
-    path: 'introduction/personal',
+    path: 'introduction/:name',
     loadChildren: () =>
-      import('../app/features/introduction-page/personal/personal.module').then(
+      import('../app/features/personal/personal.module').then(
         (m) => m.PersonalModule
       ),
   },

@@ -1,0 +1,56 @@
+<div id="personal-container">
+  <div id="left-side">
+    <div id="person-card">
+      <div id="name-holder">
+        <p>
+          {{ currentPersonData.name }}
+        </p>
+      </div>
+      <div id="image-holder">
+        <img
+          [src]="currentPersonData.pictureUrl"
+          alt="Picture of {{ currentPersonData.name }}"
+          width="150px"
+        />
+      </div>
+    </div>
+    <div id="quote">
+      <blockquote>
+        <p>{{ currentPersonData.quote }}</p>
+      </blockquote>
+    </div>
+  </div>
+  <div id="right-side">
+    <div id="introduction">
+      <p>
+        {{ currentPersonData.introduction }}
+      </p>
+    </div>
+    <div id="contact">
+      <p>Elérhetőségek</p>
+      <div class="iconWithData">
+        <span class="material-symbols-outlined">call</span>
+        <p>
+          {{ currentPersonData.phone }}
+        </p>
+      </div>
+      <div class="iconWithData">
+        <span class="material-symbols-outlined">forward_to_inbox</span>
+        <p>
+          {{ currentPersonData.email }}
+        </p>
+      </div>
+      <div class="iconWithData">
+        <span class="material-symbols-outlined">public</span>
+        <div id="link-container">
+          <a href="{{ currentPersonData.web }}">Weboldalam</a>
+          <a
+            href="{{ currentPersonData.facebook }}"
+            *ngIf="currentPersonData.facebook !== ''"
+            >Facebook</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
