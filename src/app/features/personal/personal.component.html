@@ -14,20 +14,8 @@
         />
       </div>
     </div>
-    <div id="quote">
-      <blockquote>
-        <p>{{ currentPersonData.quote }}</p>
-      </blockquote>
-    </div>
-  </div>
-  <div id="right-side">
-    <div id="introduction">
-      <p>
-        {{ currentPersonData.introduction }}
-      </p>
-    </div>
     <div id="contact">
-      <p>Elérhetőségek</p>
+      <p id="title">Elérhetőségek</p>
       <div class="iconWithData">
         <span class="material-symbols-outlined">call</span>
         <p>
@@ -43,7 +31,11 @@
       <div class="iconWithData">
         <span class="material-symbols-outlined">public</span>
         <div id="link-container">
-          <a href="{{ currentPersonData.web }}">Weboldalam</a>
+          <a
+            href="{{ currentPersonData.web }}"
+            *ngIf="currentPersonData.web !== ''"
+            >Weboldalam</a
+          >
           <a
             href="{{ currentPersonData.facebook }}"
             *ngIf="currentPersonData.facebook !== ''"
@@ -51,6 +43,18 @@
           >
         </div>
       </div>
+    </div>
+  </div>
+  <div id="right-side">
+    <div id="introduction">
+      <p>
+        {{ currentPersonData.introduction }}
+      </p>
+    </div>
+    <div id="quote" *ngIf="currentPersonData.quote !== ''">
+      <blockquote>
+        <p>{{ currentPersonData.quote }}</p>
+      </blockquote>
     </div>
   </div>
 </div>
