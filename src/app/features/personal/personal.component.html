@@ -18,11 +18,15 @@
       <p id="title">Elérhetőségek</p>
       <div class="iconWithData">
         <span class="material-symbols-outlined">call</span>
-        <a href="tel:{{ currentPersonData.phone }}">Hívjon bizalommal!</a>
+        <a href="tel:{{ currentPersonData.phone }}">{{
+          currentPersonData.phone
+        }}</a>
       </div>
       <div class="iconWithData">
         <span class="material-symbols-outlined">forward_to_inbox</span>
-        <a href="mailto:{{ currentPersonData.email }}">Üzenjen emailben!</a>
+        <a href="mailto:{{ currentPersonData.email }}">{{
+          currentPersonData.email
+        }}</a>
       </div>
       <div class="iconWithData" *ngIf="currentPersonData.web !== ''">
         <span class="material-symbols-outlined">public</span>
