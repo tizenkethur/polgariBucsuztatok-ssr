@@ -18,43 +18,32 @@
       <p id="title">Elérhetőségek</p>
       <div class="iconWithData">
         <span class="material-symbols-outlined">call</span>
-        <p>
-          {{ currentPersonData.phone }}
-        </p>
+        <a href="tel:{{ currentPersonData.phone }}">Hívjon bizalommal!</a>
       </div>
       <div class="iconWithData">
         <span class="material-symbols-outlined">forward_to_inbox</span>
-        <p>
-          {{ currentPersonData.email }}
-        </p>
+        <a href="mailto:{{ currentPersonData.email }}">Üzenjen emailben!</a>
       </div>
-      <div class="iconWithData">
+      <div class="iconWithData" *ngIf="currentPersonData.web !== ''">
         <span class="material-symbols-outlined">public</span>
-        <div id="link-container">
-          <a
-            href="{{ currentPersonData.web }}"
-            *ngIf="currentPersonData.web !== ''"
-            >Weboldalam</a
-          >
-          <a
-            href="{{ currentPersonData.facebook }}"
-            *ngIf="currentPersonData.facebook !== ''"
-            >Facebook</a
-          >
-        </div>
+        <a href="{{ currentPersonData.web }}">Weboldalam</a>
+      </div>
+      <div class="iconWithData" *ngIf="currentPersonData.facebook !== ''">
+        <span class="material-symbols-outlined">thumb_up</span>
+        <a href="{{ currentPersonData.facebook }}">Facebook</a>
       </div>
     </div>
   </div>
   <div id="right-side">
-    <div id="introduction">
-      <p>
-        {{ currentPersonData.introduction }}
-      </p>
-    </div>
     <div id="quote" *ngIf="currentPersonData.quote !== ''">
       <blockquote>
         <p>{{ currentPersonData.quote }}</p>
       </blockquote>
+    </div>
+    <div id="introduction">
+      <p>
+        {{ currentPersonData.introduction }}
+      </p>
     </div>
   </div>
 </div>

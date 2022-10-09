@@ -32,13 +32,34 @@ export const farewellPersonData: farewellPerson[] = [
       Ezt a küldetésemet a legnagyobb alázattal, szeretettel és
       együttérzéssel teszem.`,
     quote: '',
-    phone: '06 30 275 2466',
+    phone: '+36302752466',
     email: 'gabigloriella@gmail.com',
     web: '',
     facebook: '',
   },
   {
     id: 2,
+    name: 'Gohér Zsuzsa',
+    pictureUrl: '../assets/farewellPersons/Gohér_Zsuzsa.jpg',
+    introduction: `Több, mint 25 éve próbálok segíteni – legjobb tudásom és
+    érzéseim szerint – abban, hogy a „végtisztesség” valóban
+    tisztesség legyen.
+    Szeretném hinni, hogy a személyes, túlzásoktól mentes,
+    érzéssel, de nem érzelgősen megfogalmazott búcsúbeszéd,
+    sokat tesz hozzá a végső búcsú megismételhetetlen
+    pillanataihoz. Minden gondolatom, koncepcióm, elvem: a
+    Nők Lapja cikkében olvasható.
+    Köszönöm, ha megtisztelnek bizalmukkal.
+    https://nlc.hu/csalad/20161223/temetes-bucsubeszed-
+    elmulas-szertartas/`,
+    quote: '',
+    phone: '',
+    email: '',
+    web: '',
+    facebook: '',
+  },
+  {
+    id: 3,
     name: 'Hangay Mária',
     pictureUrl: '../assets/farewellPersons/Hangay_Marica.jpg',
     introduction: `Hangay Mária vagyok. Az Eötvös Lóránd Tudományegyetemen diplomáztam
@@ -62,13 +83,35 @@ export const farewellPersonData: farewellPerson[] = [
   úgyhogy fény-árnyak, tündérciterák
   villantják hangod, a szemed, a szád,
   csöndes játékait a képzeletnek…” Szabó Lőrinc`,
-    phone: '06 30 951 5816',
+    phone: '+36309515816',
     email: 'hangaymarica@gmail.com',
     web: '',
     facebook: '',
   },
   {
-    id: 3,
+    id: 4,
+    name: 'Kotolák Beáta',
+    pictureUrl: '../assets/farewellPersons/Kotolák_Beáta.jpg',
+    introduction: `Kotolák Beáta vagyok.
+    Több mint 2 évtizede, 2000. óta foglalkozom polgári búcsúztatással. Pályafutásom,
+    valamint a saját tapasztalataim alapján, a halál a szeretett személy elvesztése, a
+    gyász váltja ki a legmélyebb emberi érzéseket. A legfőbb célom a segítségnyújtás a
+    gyászoló családoknak ahhoz, hogy a végtisztesség méltóságát megőrizve,
+    elbúcsúzhassanak hozzátartozójuktól. Nem könnyű, de ugyanakkor nagyon szép és
+    lélekemelő feladat, amit naponta végzek.
+    Az általam megírt búcsúztató beszéd, – előzetes egyeztetés alapján, mindig
+    személyes hangvitelű. Hiteles, tiszta emberi szavakkal megszólaltatva a
+    család érzéseit, emlékeit a „lélek hangjait”; a megfelelően kiválasztott versekkel és
+    idézetekkel emelve a beszéd meghittségét, színvonalát.
+    Bővebb felvilágosításért kérem keresse fel honlapomat!`,
+    quote: '',
+    phone: '+36303648874',
+    email: '',
+    web: 'http://www.polgaribucsuztato.hu',
+    facebook: '',
+  },
+  {
+    id: 5,
     name: 'Korsós László',
     pictureUrl: '../assets/farewellPersons/Korsós_László.jpg',
     introduction: `Korsós László vagyok, 1979-ben születtem Budapesten. Újságíróként végeztem
@@ -87,49 +130,12 @@ A búcsúztatónak meg kell teremtenie azt a pillanatot, mikor a világ elcsende
 Róla, a távozóról szól. 
 Én mindig erre törekszem…`,
     quote: '',
-    phone: '+3620/363-33-60',
+    phone: '+36203633360',
     email: 'bucsuztatas1@hotmail.com',
     web: '',
     facebook: '',
   },
-  {
-    id: 4,
-    name: 'Nagy Klára',
-    pictureUrl: '../assets/farewellPersons/Nagy_Klára.jpg',
-    introduction: `1992 óta foglakozom polgári búcsúztatással, ezzel a nehéz, ám fontos és szép feladattal.
-    Pedagógus végzettséget szereztem, pszichológiát tanultam, és énekművészi tanulmányokat folytattam.
-    A hangképzésnek, beszédművelésnek ma is, – napi szinten – hasznát veszem a munkám során. Kezdettől arra törekszem, hogy – versekkel,
-    idézetekkel, szép, emberi gondolatokkal – pátosz nélkül – segítsem a gyászolókat fájdalmuk kifejezésében.
-    Célom, hogy a búcsúzást követően mindenki megnyugvással térhessen haza, – azzal az érzéssel, hogy méltóképpen, szépen köszönhetett el hozzátartozójától, barátjától,
-    kedves ismerősétől.
-    Az évek során számos család búcsúzott hozzátartozójától a közreműködésemmel – és igen sokan, – akár hosszú évek múltán, több alkalommal is – újra megkeresnek,
-    ha veszteség éri őket, ha ismét búcsúzni kényszerülnek.
-    A visszajelzések alapján a hozzátartozók pozitívan értékelik az empátia, a jó kapcsolatteremtő képesség mellett, – sokéves tapasztalatomat, felkészültségemet; és a nyugalmat, amivel igyekszem átsegíteni a gyászolókat ezen a nehéz órán, amit szerettük utolsó útja jelent számukra.`,
-    quote: '„Az utolsó szavak melege a semmibe is elkísér…”',
-    phone: ' 06 30 252 7559',
-    email: 'nagyklara@gmail.com',
-    web: 'www.bucsuztato.hu',
-    facebook: 'https://www.facebook.com/profile.php?id=100083359909403',
-  },
-  {
-    id: 5,
-    name: 'Nagy Klára',
-    pictureUrl: '../assets/farewellPersons/Nagy_Klára.jpg',
-    introduction: `1992 óta foglakozom polgári búcsúztatással, ezzel a nehéz, ám fontos és szép feladattal.
-    Pedagógus végzettséget szereztem, pszichológiát tanultam, és énekművészi tanulmányokat folytattam.
-    A hangképzésnek, beszédművelésnek ma is, – napi szinten – hasznát veszem a munkám során. Kezdettől arra törekszem, hogy – versekkel,
-    idézetekkel, szép, emberi gondolatokkal – pátosz nélkül – segítsem a gyászolókat fájdalmuk kifejezésében.
-    Célom, hogy a búcsúzást követően mindenki megnyugvással térhessen haza, – azzal az érzéssel, hogy méltóképpen, szépen köszönhetett el hozzátartozójától, barátjától,
-    kedves ismerősétől.
-    Az évek során számos család búcsúzott hozzátartozójától a közreműködésemmel – és igen sokan, – akár hosszú évek múltán, több alkalommal is – újra megkeresnek,
-    ha veszteség éri őket, ha ismét búcsúzni kényszerülnek.
-    A visszajelzések alapján a hozzátartozók pozitívan értékelik az empátia, a jó kapcsolatteremtő képesség mellett, – sokéves tapasztalatomat, felkészültségemet; és a nyugalmat, amivel igyekszem átsegíteni a gyászolókat ezen a nehéz órán, amit szerettük utolsó útja jelent számukra.`,
-    quote: '„Az utolsó szavak melege a semmibe is elkísér…”',
-    phone: ' 06 30 252 7559',
-    email: 'nagyklara@gmail.com',
-    web: 'www.bucsuztato.hu',
-    facebook: 'https://www.facebook.com/profile.php?id=100083359909403',
-  },
+
   {
     id: 6,
     name: 'Nagy Klára',
@@ -144,9 +150,9 @@ Róla, a távozóról szól. 
     ha veszteség éri őket, ha ismét búcsúzni kényszerülnek.
     A visszajelzések alapján a hozzátartozók pozitívan értékelik az empátia, a jó kapcsolatteremtő képesség mellett, – sokéves tapasztalatomat, felkészültségemet; és a nyugalmat, amivel igyekszem átsegíteni a gyászolókat ezen a nehéz órán, amit szerettük utolsó útja jelent számukra.`,
     quote: '„Az utolsó szavak melege a semmibe is elkísér…”',
-    phone: '06 30 252 7559',
+    phone: ' +36302527559',
     email: 'nagyklara@gmail.com',
-    web: 'https://www.bucsuztato.hu',
+    web: 'http://www.bucsuztato.hu',
     facebook: 'https://www.facebook.com/profile.php?id=100083359909403',
   },
 ];
