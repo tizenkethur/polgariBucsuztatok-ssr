@@ -12,6 +12,7 @@ export class PersonalComponent implements OnInit {
   farewellPersonData: farewellPerson[] = farewellPersonData;
   currentPersonData: farewellPerson;
 
+  @Input() videoId: string;
   constructor(private route: ActivatedRoute) {
     this.name = this.route.snapshot.paramMap.get('name');
   }
@@ -20,6 +21,7 @@ export class PersonalComponent implements OnInit {
     farewellPersonData.forEach((obj) => {
       if (this.name === obj.name) {
         this.currentPersonData = obj;
+        this.videoId = this.currentPersonData.videoId;
       }
     });
 
