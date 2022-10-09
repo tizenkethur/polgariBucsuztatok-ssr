@@ -8,4 +8,5 @@ export interface farewellPerson {
   email: string;
   web: string;
   facebook: string;
+  videoId: string;
 }

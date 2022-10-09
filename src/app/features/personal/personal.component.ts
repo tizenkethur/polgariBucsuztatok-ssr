@@ -1,8 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { farewellPerson } from 'src/app/shared/models/farewellPersons';
 import { farewellPersonData } from 'src/db-data';
-
 @Component({
   selector: 'app-personal',
   templateUrl: './personal.component.html',
@@ -17,11 +16,15 @@ export class PersonalComponent implements OnInit {
     this.name = this.route.snapshot.paramMap.get('name');
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
     farewellPersonData.forEach((obj) => {
       if (this.name === obj.name) {
         this.currentPersonData = obj;
       }
     });
+
+    const tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    document.body.appendChild(tag);
   }
 }

@@ -36,6 +36,7 @@ export const farewellPersonData: farewellPerson[] = [
     email: 'gabigloriella@gmail.com',
     web: '',
     facebook: '',
+    videoId: '-IaNqK6BCig',
   },
   {
     id: 2,
@@ -57,83 +58,87 @@ export const farewellPersonData: farewellPerson[] = [
     email: '',
     web: '',
     facebook: '',
+    videoId: '',
   },
   {
     id: 3,
     name: 'Hangay Mária',
     pictureUrl: '../assets/farewellPersons/Hangay_Marica.jpg',
     introduction: `Hangay Mária vagyok. Az Eötvös Lóránd Tudományegyetemen diplomáztam
-      esztétika-magyar szakon. 2004-ben az egyetemek között megrendezett országos szépkiejtési
-      versenyen Kazinczy-díjat szereztem, ez megerősített abban, hogy bármerre is sodor majd az
-      élet, az igényes anyanyelvhasználat mindig meghatározó lesz számomra. Az irodalomtanítás
-      mellett immár 15 esztendeje foglalkozom polgári búcsúztatással. Hivatásként tekintek a
-      munkámra. Hiszem, hogy a méltó búcsú egyaránt segíti a távozót és az itt maradottakat.
-  Annak idején szüleim elvesztése irányította figyelmemet a búcsúztatás felé. Akkor
-  értettem meg, hogy az emlékezés nem csupán múltba tekintés, hanem főhajtás is elvesztett
-  szeretteink előtt, s egyúttal az általuk közvetített értékek folytonosságának vállalása is. A
-  tiszta, önzetlen emberi élet emlékei az élők világában tovább gyökereznek. Halottaink nem
-  csak a múltat hagyják itt számunkra, hanem tovább élnek tetteinkben is. Fontosnak tartom,
-  hogy a búcsúztató során méltó módon idézzem fel az elhunyt életét, így kapaszkodót adva az
-  ittmaradottaknak a folytatáshoz.`,
+    esztétika-magyar szakon. 2004-ben az egyetemek között megrendezett országos szépkiejtési
+    versenyen Kazinczy-díjat szereztem, ez megerősített abban, hogy bármerre is sodor majd az
+    élet, az igényes anyanyelvhasználat mindig meghatározó lesz számomra. Az irodalomtanítás
+    mellett immár 15 esztendeje foglalkozom polgári búcsúztatással. Hivatásként tekintek a
+    munkámra. Hiszem, hogy a méltó búcsú egyaránt segíti a távozót és az itt maradottakat.
+    Annak idején szüleim elvesztése irányította figyelmemet a búcsúztatás felé. Akkor
+    értettem meg, hogy az emlékezés nem csupán múltba tekintés, hanem főhajtás is elvesztett
+    szeretteink előtt, s egyúttal az általuk közvetített értékek folytonosságának vállalása is. A
+    tiszta, önzetlen emberi élet emlékei az élők világában tovább gyökereznek. Halottaink nem
+    csak a múltat hagyják itt számunkra, hanem tovább élnek tetteinkben is. Fontosnak tartom,
+    hogy a búcsúztató során méltó módon idézzem fel az elhunyt életét, így kapaszkodót adva az
+    ittmaradottaknak a folytatáshoz.`,
     quote: `„Mert sehol se vagy, mindenütt kereslek,
-  nap, rét, tó, felhő, száz táj a ruhád,
-  mindig mutat valahol a világ
-  s mindig elkap, bár kereső szememnek
-  tévedései is hozzád vezetnek,
-  úgyhogy fény-árnyak, tündérciterák
+    nap, rét, tó, felhő, száz táj a ruhád,
+    mindig mutat valahol a világ
+    s mindig elkap, bár kereső szememnek
+    tévedései is hozzád vezetnek,
+    úgyhogy fény-árnyak, tündérciterák
   villantják hangod, a szemed, a szád,
   csöndes játékait a képzeletnek…” Szabó Lőrinc`,
     phone: '+36309515816',
     email: 'hangaymarica@gmail.com',
     web: '',
     facebook: '',
+    videoId: 'QTIkudYT3mg&list=RDp2TRiVOBvfc&index=5',
   },
   {
     id: 4,
     name: 'Kotolák Beáta',
     pictureUrl: '../assets/farewellPersons/Kotolák_Beáta.jpg',
     introduction: `Kotolák Beáta vagyok.
-    Több mint 2 évtizede, 2000. óta foglalkozom polgári búcsúztatással. Pályafutásom,
-    valamint a saját tapasztalataim alapján, a halál a szeretett személy elvesztése, a
-    gyász váltja ki a legmélyebb emberi érzéseket. A legfőbb célom a segítségnyújtás a
-    gyászoló családoknak ahhoz, hogy a végtisztesség méltóságát megőrizve,
-    elbúcsúzhassanak hozzátartozójuktól. Nem könnyű, de ugyanakkor nagyon szép és
-    lélekemelő feladat, amit naponta végzek.
-    Az általam megírt búcsúztató beszéd, – előzetes egyeztetés alapján, mindig
-    személyes hangvitelű. Hiteles, tiszta emberi szavakkal megszólaltatva a
-    család érzéseit, emlékeit a „lélek hangjait”; a megfelelően kiválasztott versekkel és
-    idézetekkel emelve a beszéd meghittségét, színvonalát.
-    Bővebb felvilágosításért kérem keresse fel honlapomat!`,
+  Több mint 2 évtizede, 2000. óta foglalkozom polgári búcsúztatással. Pályafutásom,
+  valamint a saját tapasztalataim alapján, a halál a szeretett személy elvesztése, a
+  gyász váltja ki a legmélyebb emberi érzéseket. A legfőbb célom a segítségnyújtás a
+  gyászoló családoknak ahhoz, hogy a végtisztesség méltóságát megőrizve,
+  elbúcsúzhassanak hozzátartozójuktól. Nem könnyű, de ugyanakkor nagyon szép és
+  lélekemelő feladat, amit naponta végzek.
+  Az általam megírt búcsúztató beszéd, – előzetes egyeztetés alapján, mindig
+  személyes hangvitelű. Hiteles, tiszta emberi szavakkal megszólaltatva a
+  család érzéseit, emlékeit a „lélek hangjait”; a megfelelően kiválasztott versekkel és
+  idézetekkel emelve a beszéd meghittségét, színvonalát.
+  Bővebb felvilágosításért kérem keresse fel honlapomat!`,
     quote: '',
     phone: '+36303648874',
     email: '',
     web: 'http://www.polgaribucsuztato.hu',
     facebook: '',
+    videoId: '',
   },
   {
     id: 5,
     name: 'Korsós László',
     pictureUrl: '../assets/farewellPersons/Korsós_László.jpg',
     introduction: `Korsós László vagyok, 1979-ben születtem Budapesten. Újságíróként végeztem
-tanulmányaimat, de 2008 óta polgári búcsúztatással foglalkozom. 
-Munkám során mindig az a célom, hogy a hozzám forduló családok, méltóképpen tudjanak
-búcsút venni hozzátartozójuktól. 
-Az elmúlás hiába életünk része, hiába tudjuk, hogy elkerülhetetlen, hiába készülünk rá
-tudásunk és hitünk szerint a legjobban, a szeretett személy elvesztését követő mély fájdalomra
-nem tudunk felkészülni. Ilyenkor úgy érezzük, hogy a világnak is meg kellene állnia, hiszen Ő
-már nincsen közöttünk. 
-A szertartás, a család és a barátok végső búcsúja. Fontos, hogy egyetlen oda nem illő szó se
-hangozzék el, minden mondatnak és gondolatnak hitelesnek kell lennie, és annak is kell
-maradnia. A búcsúnak nem nyomasztónak, hanem lelki békét, megnyugvást nyújtó emlékké
-kell válnia, ezzel is segítve a gyász feldolgozását. 
-A búcsúztatónak meg kell teremtenie azt a pillanatot, mikor a világ elcsendesül és minden
-Róla, a távozóról szól. 
-Én mindig erre törekszem…`,
+  tanulmányaimat, de 2008 óta polgári búcsúztatással foglalkozom. 
+  Munkám során mindig az a célom, hogy a hozzám forduló családok, méltóképpen tudjanak
+  búcsút venni hozzátartozójuktól. 
+  Az elmúlás hiába életünk része, hiába tudjuk, hogy elkerülhetetlen, hiába készülünk rá
+  tudásunk és hitünk szerint a legjobban, a szeretett személy elvesztését követő mély fájdalomra
+  nem tudunk felkészülni. Ilyenkor úgy érezzük, hogy a világnak is meg kellene állnia, hiszen Ő
+  már nincsen közöttünk. 
+  A szertartás, a család és a barátok végső búcsúja. Fontos, hogy egyetlen oda nem illő szó se
+  hangozzék el, minden mondatnak és gondolatnak hitelesnek kell lennie, és annak is kell
+  maradnia. A búcsúnak nem nyomasztónak, hanem lelki békét, megnyugvást nyújtó emlékké
+  kell válnia, ezzel is segítve a gyász feldolgozását. 
+  A búcsúztatónak meg kell teremtenie azt a pillanatot, mikor a világ elcsendesül és minden
+  Róla, a távozóról szól. 
+  Én mindig erre törekszem…`,
     quote: '',
     phone: '+36203633360',
     email: 'bucsuztatas1@hotmail.com',
     web: '',
     facebook: '',
+    videoId: '',
   },
 
   {
@@ -141,18 +146,19 @@ Róla, a távozóról szól. 
     name: 'Nagy Klára',
     pictureUrl: '../assets/farewellPersons/Nagy_Klára.jpg',
     introduction: `1992 óta foglakozom polgári búcsúztatással, ezzel a nehéz, ám fontos és szép feladattal.
-    Pedagógus végzettséget szereztem, pszichológiát tanultam, és énekművészi tanulmányokat folytattam.
-    A hangképzésnek, beszédművelésnek ma is, – napi szinten – hasznát veszem a munkám során. Kezdettől arra törekszem, hogy – versekkel,
-    idézetekkel, szép, emberi gondolatokkal – pátosz nélkül – segítsem a gyászolókat fájdalmuk kifejezésében.
-    Célom, hogy a búcsúzást követően mindenki megnyugvással térhessen haza, – azzal az érzéssel, hogy méltóképpen, szépen köszönhetett el hozzátartozójától, barátjától,
-    kedves ismerősétől.
-    Az évek során számos család búcsúzott hozzátartozójától a közreműködésemmel – és igen sokan, – akár hosszú évek múltán, több alkalommal is – újra megkeresnek,
-    ha veszteség éri őket, ha ismét búcsúzni kényszerülnek.
-    A visszajelzések alapján a hozzátartozók pozitívan értékelik az empátia, a jó kapcsolatteremtő képesség mellett, – sokéves tapasztalatomat, felkészültségemet; és a nyugalmat, amivel igyekszem átsegíteni a gyászolókat ezen a nehéz órán, amit szerettük utolsó útja jelent számukra.`,
+  Pedagógus végzettséget szereztem, pszichológiát tanultam, és énekművészi tanulmányokat folytattam.
+  A hangképzésnek, beszédművelésnek ma is, – napi szinten – hasznát veszem a munkám során. Kezdettől arra törekszem, hogy – versekkel,
+  idézetekkel, szép, emberi gondolatokkal – pátosz nélkül – segítsem a gyászolókat fájdalmuk kifejezésében.
+  Célom, hogy a búcsúzást követően mindenki megnyugvással térhessen haza, – azzal az érzéssel, hogy méltóképpen, szépen köszönhetett el hozzátartozójától, barátjától,
+  kedves ismerősétől.
+  Az évek során számos család búcsúzott hozzátartozójától a közreműködésemmel – és igen sokan, – akár hosszú évek múltán, több alkalommal is – újra megkeresnek,
+  ha veszteség éri őket, ha ismét búcsúzni kényszerülnek.
+  A visszajelzések alapján a hozzátartozók pozitívan értékelik az empátia, a jó kapcsolatteremtő képesség mellett, – sokéves tapasztalatomat, felkészültségemet; és a nyugalmat, amivel igyekszem átsegíteni a gyászolókat ezen a nehéz órán, amit szerettük utolsó útja jelent számukra.`,
     quote: '„Az utolsó szavak melege a semmibe is elkísér…”',
     phone: ' +36302527559',
     email: 'nagyklara@gmail.com',
     web: 'http://www.bucsuztato.hu',
     facebook: 'https://www.facebook.com/profile.php?id=100083359909403',
+    videoId: '',
   },
 ];

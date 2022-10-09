@@ -87,11 +87,6 @@
     width: 70%;
     height: auto;
 
-    #introduction {
-      text-align: justify;
-      padding: 20px;
-    }
-
     #quote {
       display: inline-block;
       display: flex;
@@ -127,5 +122,19 @@
         }
       }
     }
+
+    #introduction {
+      text-align: justify;
+      padding: 20px;
+    }
+
+    youtube-player {
+      cursor: pointer;
+    }
+    // #media {
+    //   background-color: red;
+    //   width: 500px;
+    //   height: 500px;
+    // }
   }
 }
