@@ -30,11 +30,21 @@
       </div>
       <div class="iconWithData" *ngIf="currentPersonData.web !== ''">
         <span class="material-symbols-outlined">public</span>
-        <a href="{{ currentPersonData.web }}">Weboldalam</a>
+        <a
+          href="{{ currentPersonData.web }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Weboldalam</a
+        >
       </div>
       <div class="iconWithData" *ngIf="currentPersonData.facebook !== ''">
         <span class="material-symbols-outlined">thumb_up</span>
-        <a href="{{ currentPersonData.facebook }}">Facebook</a>
+        <a
+          href="{{ currentPersonData.facebook }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Facebook</a
+        >
       </div>
     </div>
   </div>
@@ -49,8 +59,8 @@
         {{ currentPersonData.introduction }}
       </p>
     </div>
-    <div id="media">
-      <youtube-player [videoId]="videoId"></youtube-player>
+    <div id="media" *ngIf="currentPersonData.videoId !== ''">
+      <youtube-player [videoId]="currentPersonData.videoId"></youtube-player>
     </div>
   </div>
 </div>

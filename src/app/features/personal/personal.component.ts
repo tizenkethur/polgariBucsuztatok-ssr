@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { farewellPerson } from 'src/app/shared/models/farewellPersons';
 import { farewellPersonData } from 'src/db-data';
@@ -12,7 +12,6 @@ export class PersonalComponent implements OnInit {
   farewellPersonData: farewellPerson[] = farewellPersonData;
   currentPersonData: farewellPerson;
 
-  @Input() videoId: string;
   constructor(private route: ActivatedRoute) {
     this.name = this.route.snapshot.paramMap.get('name');
   }
@@ -21,12 +20,7 @@ export class PersonalComponent implements OnInit {
     farewellPersonData.forEach((obj) => {
       if (this.name === obj.name) {
         this.currentPersonData = obj;
-        this.videoId = this.currentPersonData.videoId;
       }
     });
-
-    const tag = document.createElement('script');
-    tag.src = 'https://www.youtube.com/iframe_api';
-    document.body.appendChild(tag);
   }
 }

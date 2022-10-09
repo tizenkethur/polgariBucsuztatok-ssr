@@ -82,18 +82,17 @@
   #right-side {
     display: flex;
     flex-direction: column;
-    // justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     width: 70%;
     height: auto;
 
     #quote {
+      align-self: flex-end;
       display: inline-block;
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: justify;
-      // padding-right: 25px;
       letter-spacing: 3px;
       font-weight: bolder;
       margin: 1em;
@@ -127,14 +126,5 @@
       text-align: justify;
       padding: 20px;
     }
-
-    youtube-player {
-      cursor: pointer;
-    }
-    // #media {
-    //   background-color: red;
-    //   width: 500px;
-    //   height: 500px;
-    // }
   }
 }
