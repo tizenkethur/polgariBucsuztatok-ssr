@@ -1,5 +1,5 @@
 <div id="personal-container">
-  <div id="left-side">
+  <div id="pic-quote-contact">
     <div id="person-card">
       <div id="name-holder">
         <p>
@@ -13,6 +13,11 @@
           width="150px"
         />
       </div>
+    </div>
+    <div id="quote" *ngIf="currentPersonData.quote !== ''">
+      <blockquote>
+        <p>{{ currentPersonData.quote }}</p>
+      </blockquote>
     </div>
     <div id="contact">
       <p id="title">Elérhetőségek</p>
@@ -48,12 +53,8 @@
       </div>
     </div>
   </div>
-  <div id="right-side">
-    <div id="quote" *ngIf="currentPersonData.quote !== ''">
-      <blockquote>
-        <p>{{ currentPersonData.quote }}</p>
-      </blockquote>
-    </div>
+
+  <div id="introduction-media">
     <div id="introduction">
       <p>
         {{ currentPersonData.introduction }}
