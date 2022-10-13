@@ -4,9 +4,9 @@ export interface farewellPerson {
   pictureUrl: string;
   introduction: string;
   quote: string;
-  phone: string;
+  phone: string[];
   email: string;
-  web: string;
-  facebook: string;
-  videoId: string;
+  web?: string;
+  facebook?: string;
+  videoId?: string;
 }

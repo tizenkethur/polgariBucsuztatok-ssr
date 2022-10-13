@@ -23,12 +23,10 @@
   #image-holder {
     display: flex;
     align-items: center;
-    // width: auto;
     max-width: 150px;
-    height: 204px;
+    height: 198px;
 
     img {
-      object-fit: fill;
       width: 100%;
       height: 100%;
     }

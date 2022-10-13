@@ -32,10 +32,8 @@ export const farewellPersonData: farewellPerson[] = [
       Ezt a küldetésemet a legnagyobb alázattal, szeretettel és
       együttérzéssel teszem.`,
     quote: `"Áldj most meg, és adj erőt, hogy holnap is  itt legyek, \nFáj a szó máshol nélküled"`,
-    phone: '+36302752466',
+    phone: ['+36302752466'],
     email: 'gabigloriella@gmail.com',
-    web: '',
-    facebook: '',
     videoId: '-IaNqK6BCig',
   },
   {
@@ -50,14 +48,10 @@ export const farewellPersonData: farewellPerson[] = [
     sokat tesz hozzá a végső búcsú megismételhetetlen
     pillanataihoz. Minden gondolatom, koncepcióm, elvem: a
     Nők Lapja cikkében olvasható.
-    Köszönöm, ha megtisztelnek bizalmukkal. https://nlc.hu/csalad/20161223/temetes-bucsubeszed-
-    elmulas-szertartas/`,
+    Köszönöm, ha megtisztelnek bizalmukkal.`,
     quote: `"...Sem távolság, sem halál, \navagy távollét szét nem választhatja azokat, \nkiket egy lélek éltet, egy szeretet fűz össze..." \n(Szt. Bernát)`,
-    phone: '',
+    phone: ['+36706149925', '+36705295390'],
     email: 'goher.zsuzsa@gmail.com',
-    web: '',
-    facebook: '',
-    videoId: '',
   },
   {
     id: 3,
@@ -76,12 +70,17 @@ export const farewellPersonData: farewellPerson[] = [
     csak a múltat hagyják itt számunkra, hanem tovább élnek tetteinkben is. Fontosnak tartom,
     hogy a búcsúztató során méltó módon idézzem fel az elhunyt életét, így kapaszkodót adva az
     ittmaradottaknak a folytatáshoz.`,
-    quote: `„Mert sehol se vagy, mindenütt kereslek, nap, rét, tó, felhő, száz táj a ruhád, \nmindig mutat valahol a világ s mindig elkap, bár kereső szememnek \ntévedései is hozzád vezetnek, úgyhogy fény-árnyak, tündérciterák \nvillantják hangod, a szemed, a szád, csöndes játékait a képzeletnek…” \nSzabó Lőrinc`,
-    phone: '+36309515816',
+    quote: `„Mert sehol se vagy, mindenütt kereslek,
+nap, rét, tó, felhő, száz táj a ruhád,
+mindig mutat valahol a világ
+s mindig elkap, bár kereső szememnek
+tévedései is hozzád vezetnek,
+úgyhogy fény-árnyak, tündérciterák
+villantják hangod, a szemed, a szád,
+csöndes játékait a képzeletnek…”
+Szabó Lőrinc`,
+    phone: ['+36309515816'],
     email: 'hangaymarica@gmail.com',
-    web: '',
-    facebook: '',
-    videoId: '',
   },
   {
     id: 4,
@@ -100,10 +99,9 @@ export const farewellPersonData: farewellPerson[] = [
   idézetekkel emelve a beszéd meghittségét, színvonalát.
   Bővebb felvilágosításért kérem keresse fel honlapomat!`,
     quote: `„Gondolj rá úgy ahogy régen, ha fáj. \nMert nem halt meg, \nCsupán messze jár.”`,
-    phone: '+36303648874',
+    phone: ['+36303648874'],
     email: 'kotolakbea@polgaribucsuztato.hu',
     web: 'https://www.polgaribucsuztato.hu',
-    facebook: '',
     videoId: '5BYdH1qGwVQ',
   },
   {
@@ -129,10 +127,8 @@ export const farewellPersonData: farewellPerson[] = [
 Elmentél? Igen. Te messze jársz, s én itt ringatlak az ölemben
 s ha fáradt leszek, átadlak a fiamnak s ő így tovább
 itt voltál s nem tűnhetsz el többé a szívünkből és a szemünkből.” \nKassák Lajos`,
-    phone: '+36203633360',
+    phone: ['+36203633360'],
     email: 'bucsuztatas1@hotmail.com',
-    web: '',
-    facebook: '',
     videoId: 'IYoOZQL3YaI',
   },
 
@@ -150,7 +146,7 @@ itt voltál s nem tűnhetsz el többé a szívünkből és a szemünkből.” \n
   ha veszteség éri őket, ha ismét búcsúzni kényszerülnek.
   A visszajelzések alapján a hozzátartozók pozitívan értékelik az empátia, a jó kapcsolatteremtő képesség mellett, – sokéves tapasztalatomat, felkészültségemet; és a nyugalmat, amivel igyekszem átsegíteni a gyászolókat ezen a nehéz órán, amit szerettük utolsó útja jelent számukra.`,
     quote: '„Az utolsó szavak melege a semmibe is elkísér…”',
-    phone: ' +36302527559',
+    phone: ['+36302527559'],
     email: 'nagyklara@gmail.com',
     web: 'https://www.bucsuztato.hu',
     facebook: 'https://www.facebook.com/profile.php?id=100083359909403',
