@@ -1,3 +1,5 @@
+import { Track } from 'ngx-audio-player';
+
 export interface farewellPerson {
   id: number;
   name: string;
@@ -9,4 +11,5 @@ export interface farewellPerson {
   web?: string;
   facebook?: string;
   videoId?: string;
+  playlist?: Track[];
 }

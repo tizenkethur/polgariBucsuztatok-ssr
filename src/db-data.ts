@@ -5,7 +5,7 @@ export const farewellPersonData: farewellPerson[] = [
     name: 'Felber Gabriella',
     pictureUrl: '../assets/farewellPersons/Felber_Gabriella.jpg',
     introduction: `Felber Gabriella vagyok.
-      2013. óta vezetek polgári búcsúztató szertartásokat.
+      2013 óta vezetek polgári búcsúztató szertartásokat.
       Operaénekes előadóművészként, igen korán ráéreztem az
       emberekre való ráhangolódás képességére.
       Már a telefonos egyeztetés során érzékelem, hogy milyen
@@ -35,6 +35,20 @@ export const farewellPersonData: farewellPerson[] = [
     phone: ['+36302752466'],
     email: 'gabigloriella@gmail.com',
     videoId: '-IaNqK6BCig',
+    playlist: [
+      {
+        title: 'Jöjj haza, jöjj Te is',
+        link: 'https://soundcloud.com/emmatwohigmusic/schubert-ave-maria-mp3',
+        artist: 'Felber Gabriella',
+        duration: 211,
+      },
+      {
+        title: 'Schuber: Ave Maria',
+        link: 'Link to Audio Two URL',
+        artist: 'Felber Gabriella',
+        duration: 192,
+      },
+    ],
   },
   {
     id: 2,
@@ -87,7 +101,7 @@ Szabó Lőrinc`,
     name: 'Kotolák Beáta',
     pictureUrl: '../assets/farewellPersons/Kotolák_Beáta.jpg',
     introduction: `Kotolák Beáta vagyok.
-  Több mint 2 évtizede, 2000. óta foglalkozom polgári búcsúztatással. Pályafutásom,
+  Több mint két évtizede, 2000 óta foglalkozom polgári búcsúztatással. Pályafutásom,
   valamint a saját tapasztalataim alapján, a halál a szeretett személy elvesztése, a
   gyász váltja ki a legmélyebb emberi érzéseket. A legfőbb célom a segítségnyújtás a
   gyászoló családoknak ahhoz, hogy a végtisztesség méltóságát megőrizve,
