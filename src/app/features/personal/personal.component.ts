@@ -13,17 +13,6 @@ export class PersonalComponent implements OnInit {
   farewellPersonData: farewellPerson[] = farewellPersonData;
   currentPersonData: farewellPerson;
 
-  msaapDisplayTitle = true;
-  msaapDisplayPlayList = true;
-  msaapPageSizeOptions = [2, 4, 6];
-  msaapDisplayVolumeControls = true;
-  msaapDisplayRepeatControls = true;
-  msaapDisplayArtist = false;
-  msaapDisplayDuration = false;
-  msaapDisablePositionSlider = true;
-
-  msaapPlaylist: Track[];
-
   constructor(private route: ActivatedRoute) {
     this.name = this.route.snapshot.paramMap.get('name');
   }
@@ -34,9 +23,5 @@ export class PersonalComponent implements OnInit {
         this.currentPersonData = obj;
       }
     });
-
-    this.msaapPlaylist = this.currentPersonData.playlist;
-    console.log(this.currentPersonData.playlist);
-    console.log(this.msaapPlaylist);
   }
 }

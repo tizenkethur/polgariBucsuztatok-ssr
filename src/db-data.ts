@@ -43,7 +43,7 @@ export const farewellPersonData: farewellPerson[] = [
         duration: 211,
       },
       {
-        title: 'Schuber: Ave Maria',
+        title: 'Schubert: Ave Maria',
         link: 'Link to Audio Two URL',
         artist: 'Felber Gabriella',
         duration: 192,
