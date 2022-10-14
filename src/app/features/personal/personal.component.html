@@ -1,21 +1,11 @@
-<mat-sidenav-container class="example-container">
-  <mat-sidenav #sidenav mode="side" [(opened)]="opened">
-    <p>Felber Gabriella</p>
-    <p>Gohér Zsuzsa</p>
-    <p>Hangay Mária</p>
-    <p>Kotolák Beáta</p>
-    <p>Korsós László</p>
-    <p>Nagy Klára</p>
-  </mat-sidenav>
-
-  <mat-sidenav-content>
-    <p>
-      <button mat-button (click)="sidenav.toggle()">
-        <span class="material-symbols-outlined">menu</span>
-      </button>
-    </p>
-  </mat-sidenav-content>
-</mat-sidenav-container>
+<button
+  mat-fab
+  routerLink="/introduction"
+  color="currentColor"
+  aria-label="Button with an arrow_back icon"
+>
+  <mat-icon>arrow_back</mat-icon>
+</button>
 
 <div id="personal-container">
   <div id="pic-quote-contact">
