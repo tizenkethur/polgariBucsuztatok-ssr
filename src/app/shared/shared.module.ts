@@ -6,6 +6,9 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+
 @NgModule({
   declarations: [HeaderComponent, LoaderComponent],
   imports: [
@@ -13,6 +16,8 @@ import { MatIconModule } from '@angular/material/icon';
     MatIconModule,
     MatButtonModule,
     MatProgressSpinnerModule,
+    MatSidenavModule,
+    MatCheckboxModule,
     RouterModule,
   ],
   exports: [
@@ -23,6 +28,8 @@ import { MatIconModule } from '@angular/material/icon';
     LoaderComponent,
     MatIconModule,
     MatButtonModule,
+    MatSidenavModule,
+    MatCheckboxModule,
   ],
 })
 export class SharedModule {}

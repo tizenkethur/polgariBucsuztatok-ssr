@@ -12,6 +12,9 @@ export class PersonalComponent implements OnInit {
   farewellPersonData: farewellPerson[] = farewellPersonData;
   currentPersonData: farewellPerson;
   audioList: { [key: string]: string }[];
+  events: string[] = [];
+  opened: boolean;
+  
   constructor(private route: ActivatedRoute) {
     this.name = this.route.snapshot.paramMap.get('name');
   }

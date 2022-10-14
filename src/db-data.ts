@@ -43,7 +43,7 @@ export const farewellPersonData: farewellPerson[] = [
       //     'https://i1.sndcdn.com/artworks-000249294066-uow7s0-t500x500.jpg',
       // },
       {
-        url: 'file:///src/assets/songs/Jojj_haza_jojj_Te_is.mp3',
+        url: 'file:///../assets/songs/Jojj_haza_jojj_Te_is.mp3',
         title: 'Schubert',
         cover:
           'https://i1.sndcdn.com/artworks-000249294066-uow7s0-t500x500.jpg',
