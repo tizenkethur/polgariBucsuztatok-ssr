@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Track } from 'ngx-audio-player';
 import { farewellPerson } from 'src/app/shared/models/farewellPersons';
 import { farewellPersonData } from 'src/db-data';
 @Component({
@@ -12,7 +11,7 @@ export class PersonalComponent implements OnInit {
   name: string;
   farewellPersonData: farewellPerson[] = farewellPersonData;
   currentPersonData: farewellPerson;
-
+  audioList: { [key: string]: string }[];
   constructor(private route: ActivatedRoute) {
     this.name = this.route.snapshot.paramMap.get('name');
   }
@@ -23,5 +22,6 @@ export class PersonalComponent implements OnInit {
         this.currentPersonData = obj;
       }
     });
+    this.audioList = this.currentPersonData.audioList;
   }
 }

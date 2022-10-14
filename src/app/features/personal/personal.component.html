@@ -69,7 +69,8 @@
       >
     </div>
     <div id="media" *ngIf="currentPersonData.videoId">
-      <div id="audio-player" *ngIf="currentPersonData.playlist !== undefined">
+      <div id="audio-player" *ngIf="currentPersonData.audioList !== undefined">
+        <ang-music-player [audioList] = audioList></ang-music-player>
       </div>
       <div id="youtube-player" *ngIf="currentPersonData.videoId">
         <youtube-player [videoId]="currentPersonData.videoId"></youtube-player>

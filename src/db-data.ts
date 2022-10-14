@@ -35,19 +35,23 @@ export const farewellPersonData: farewellPerson[] = [
     phone: ['+36302752466'],
     email: 'gabigloriella@gmail.com',
     videoId: '-IaNqK6BCig',
-    playlist: [
+    audioList: [
+      // {
+      //   url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3',
+      //   title: 'Sample 3',
+      //   cover:
+      //     'https://i1.sndcdn.com/artworks-000249294066-uow7s0-t500x500.jpg',
+      // },
       {
-        title: 'Jöjj haza, jöjj Te is',
-        link: 'https://soundcloud.com/emmatwohigmusic/schubert-ave-maria-mp3',
-        artist: 'Felber Gabriella',
-        duration: 211,
+        url: 'file:///src/assets/songs/Jojj_haza_jojj_Te_is.mp3',
+        title: 'Schubert',
+        cover:
+          'https://i1.sndcdn.com/artworks-000249294066-uow7s0-t500x500.jpg',
       },
-      {
-        title: 'Schubert: Ave Maria',
-        link: 'Link to Audio Two URL',
-        artist: 'Felber Gabriella',
-        duration: 192,
-      },
+      // {
+      //   title: 'Schubert: Ave Maria',
+      //   url: 'Link to Audio Two URL',
+      // },
     ],
   },
   {
