@@ -1,3 +1,5 @@
+@import "../../../../mixins";
+
 #person-card {
   display: flex;
   flex-direction: column;
@@ -5,13 +7,32 @@
   justify-content: center;
   width: 200px;
   height: 300px;
-  margin: 20px;
+  margin-bottom: 20px;
   border-radius: 4px;
   padding: 20px 0;
   cursor: pointer;
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
     0 4px 8px -1px rgba(0, 0, 0, 0.12);
 
+  @include custom(550px) {
+    margin: 20px;
+  }
+
+  @include lg {
+    margin: 28px;
+  }
+
+  @include xl {
+    width: 180px;
+    height: 280px;
+    margin: 10px;
+  }
+
+  @include custom(1400px) {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+  }
   #name-holder {
     font-size: 20px;
     font-weight: bolder;

@@ -1,25 +1,41 @@
+@import "../../../mixins";
+
 #introduction-page {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 80vw;
 
   #title {
-    display: inline-block;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    font-size: 36px;
-    padding-right: 25px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
     letter-spacing: 3px;
     font-weight: bolder;
     color: rgb(159, 32, 0);
-    margin: 1em;
+    margin: 20px 0 40px 0;
     overflow: hidden;
+
+    @include custom(550px) {
+      font-size: 28px;
+    }
+
+    @include lg {
+      font-size: 30px;
+    }
+
+    @include custom(1010px) {
+      font-size: 32px;
+    }
+
     blockquote {
+      width: 100%;
       background-color: whitesmoke;
       border: solid 2px rgba(159, 32, 0, 0.8);
       line-height: 1.5em;
-      display: inline-block;
       margin: 0;
       padding: 0.7em;
       position: relative;
@@ -42,9 +58,20 @@
 
   #card-holder {
     display: flex;
-    justify-content: space-between;
-    // flex-wrap: wrap;
+    // justify-content: space-between;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 20px;
-    // width: 1000px;
+    width: 100%;
+
+    @include sm {
+      flex-wrap: wrap;
+    }
+
+    @include xl {
+      flex-wrap: nowrap;
+    }
   }
 }
