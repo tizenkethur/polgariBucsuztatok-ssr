@@ -47,4 +47,9 @@ body {
   align-items: center;
   background-color: whitesmoke;
   margin: 8px 0px 0px 0px;
+
+  div > youtube-player > iframe {
+    display: block;
+    width: 100%;
+  }
 }

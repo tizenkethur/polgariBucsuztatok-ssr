@@ -1,26 +1,42 @@
-button {
-  margin: 20px 20px 0 20px;
-  color: rgb(159, 32, 0);
-  text-align: center;
-}
+@import "../../../mixins";
 
 #personal-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
   color: rgb(159, 32, 0);
   font-size: 18px;
   font-weight: bolder;
   line-height: 1.5;
   letter-spacing: 0.7px;
+  padding: 10px;
+  #button-holder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    button {
+      margin: 20px 20px 0 20px;
+      color: rgb(159, 32, 0);
+      text-align: center;
+    }
+  }
 
   #pic-quote-contact {
-    width: 80%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    // justify-content: space-between;
     align-items: center;
-    padding: 20px 20px 0 0;
+    // padding: 20px 20px 0 0;
+    width: 100%;
+    margin-top: 100px;
+
+    // @include sm {
+    //   flex-direction: row;
+    //   flex-wrap: wrap;
+    //   justify-content: center;
+    // }
     #person-card {
       display: flex;
       flex-direction: column;
@@ -28,9 +44,9 @@ button {
       justify-content: center;
       width: 200px;
       height: 300px;
-      margin: 20px;
+      margin: 20px 0;
       border-radius: 4px;
-      padding: 20px 0;
+      // padding: 20px 0;
       cursor: pointer;
       box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2),
         0 2px 8px 0 rgba(0, 0, 0, 0.14), 0 4px 8px -1px rgba(0, 0, 0, 0.12);
@@ -57,55 +73,50 @@ button {
     }
 
     #quote {
-      white-space: pre-line;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      letter-spacing: 1px;
-      font-weight: bolder;
+      width: 200px;
+      background-color: whitesmoke;
+      border: solid 2px rgba(159, 32, 0, 0.8);
+      line-height: 1.5em;
+      // display: inline-block;
+      margin: 0;
+      padding: 0.2em;
+      position: relative;
       overflow: hidden;
-      blockquote {
+      text-align: center;
+      &:before {
         background-color: whitesmoke;
-        border: solid 2px rgba(159, 32, 0, 0.8);
-        line-height: 1.5em;
-        display: inline-block;
-        text-align: center;
-        margin: 0;
-        padding: 19px;
+        bottom: -10%;
+        content: "";
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: -10%;
+        transform: rotate(-15deg) skew(5deg);
+      }
+      > * {
         position: relative;
-        &:before {
-          background-color: whitesmoke;
-          bottom: -10%;
-          content: "";
-          left: 0;
-          position: absolute;
-          right: 0;
-          top: -10%;
-          transform: rotate(-25deg) skew(5deg);
-        }
-        > * {
-          position: relative;
-          z-index: 1;
-        }
+        z-index: 1;
       }
     }
 
     #contact {
       display: flex;
       flex-direction: column;
-      border-radius: 5px;
+      // align-items: center;
       height: auto;
-      background-color: rgb(159, 32, 0);
+      padding-bottom: 15px;
       color: rgb(252, 249, 249);
-      opacity: 70%;
+      background-color: rgba(159, 32, 0, 0.7);
+      // opacity: 70%;
       text-align: justify;
       font-weight: bolder;
-      padding-bottom: 20px;
+      border-radius: 4px;
+      margin: 20px 0 40px 0;
       box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2),
         0 2px 8px 0 rgba(0, 0, 0, 0.14), 0 4px 8px -1px rgba(0, 0, 0, 0.12);
 
       #title {
-        font-size: 26px;
+        font-size: 20px;
         padding: 15px;
         padding-bottom: 0;
       }
@@ -118,6 +129,7 @@ button {
       .iconWithData {
         display: flex;
         padding: 5px 20px;
+        font-size: 12px;
 
         a {
           text-decoration: none;
@@ -129,14 +141,15 @@ button {
   }
 
   #introduction-media {
-    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+
     #introduction {
       text-align: justify;
-      margin-bottom: 40px;
+      // margin-bottom: 40px;
+      font-size: 18px;
+      padding: 10px;
 
       a {
         color: rgb(159, 32, 0);
@@ -151,29 +164,15 @@ button {
 
     #media {
       display: flex;
-      width: 100%;
-      justify-content: space-around;
+      // justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
 
       #youtube-player {
-        padding: 5px 0;
+        width: 90vw;
+        max-width: 576px;
       }
     }
   }
 }
-//   #right-side {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     width: 60%;
-//     height: auto;
-
-//     #box-container {
-//       display: flex;
-
-//       }
-
-//     }
-
-//
-//   }
-// }

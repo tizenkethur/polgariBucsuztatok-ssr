@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { OnInit, Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { farewellPerson } from 'src/app/shared/models/farewellPersons';
 import { farewellPersonData } from 'src/db-data';
@@ -14,7 +14,7 @@ export class PersonalComponent implements OnInit {
   audioList: { [key: string]: string }[];
   events: string[] = [];
   opened: boolean;
-  
+
   constructor(private route: ActivatedRoute) {
     this.name = this.route.snapshot.paramMap.get('name');
   }

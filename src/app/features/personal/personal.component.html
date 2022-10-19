@@ -1,13 +1,14 @@
-<button
-  mat-fab
-  routerLink="/introduction"
-  color="currentColor"
-  aria-label="Button with an arrow_back icon"
->
-  <mat-icon>arrow_back</mat-icon>
-</button>
-
 <div id="personal-container">
+  <div id="button-holder">
+    <button
+      mat-fab
+      routerLink="/introduction"
+      color="currentColor"
+      aria-label="Button with an arrow_back icon"
+    >
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+  </div>
   <div id="pic-quote-contact">
     <div id="person-card">
       <div id="name-holder">
@@ -78,11 +79,13 @@
       >
     </div>
     <div id="media" *ngIf="currentPersonData.videoId">
-      <div id="audio-player" *ngIf="currentPersonData.audioList !== undefined">
+      <!-- <div id="audio-player" *ngIf="currentPersonData.audioList !== undefined">
         <ang-music-player [audioList]="audioList"></ang-music-player>
-      </div>
+      </div> -->
       <div id="youtube-player" *ngIf="currentPersonData.videoId">
-        <youtube-player [videoId]="currentPersonData.videoId"></youtube-player>
+        <youtube-player
+          [videoId]="currentPersonData.videoId"
+        ></youtube-player>
       </div>
     </div>
   </div>
