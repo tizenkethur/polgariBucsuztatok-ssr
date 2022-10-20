@@ -67,7 +67,7 @@ export const farewellPersonData: farewellPerson[] = [
     pillanataihoz. Minden gondolatom, koncepcióm, elvem: a
     Nők Lapja cikkében olvasható.
     Köszönöm, ha megtisztelnek bizalmukkal.`,
-    quote: `"...Sem távolság, sem halál, avagy távollét szét nem választhatja azokat, kiket egy lélek éltet, egy szeretet fűz össze..." \n(Szt. Bernát)`,
+    quote: `"...Sem távolság, sem halál,\n avagy távollét szét nem választhatja\n azokat, kiket egy lélek éltet, egy szeretet fűz össze..." \n(Szt. Bernát)`,
     phone: ['+36706149925', '+36705295390'],
     email: 'goher.zsuzsa@gmail.com',
   },
