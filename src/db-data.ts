@@ -31,7 +31,7 @@ export const farewellPersonData: farewellPerson[] = [
       földön, a mindent jelentette számukra.
       Ezt a küldetésemet a legnagyobb alázattal, szeretettel és
       együttérzéssel teszem.`,
-    quote: `"Áldj most meg, és adj erőt, hogy holnap is  itt legyek, \nFáj a szó máshol nélküled"`,
+    quote: `"Áldj most meg, és adj erőt,\n hogy holnap is  itt legyek, \nFáj a szó máshol nélküled"`,
     phone: ['+36302752466'],
     email: 'gabigloriella@gmail.com',
     videoId: '-IaNqK6BCig',
@@ -67,7 +67,7 @@ export const farewellPersonData: farewellPerson[] = [
     pillanataihoz. Minden gondolatom, koncepcióm, elvem: a
     Nők Lapja cikkében olvasható.
     Köszönöm, ha megtisztelnek bizalmukkal.`,
-    quote: `"...Sem távolság, sem halál, \navagy távollét szét nem választhatja azokat, \nkiket egy lélek éltet, egy szeretet fűz össze..." \n(Szt. Bernát)`,
+    quote: `"...Sem távolság, sem halál, avagy távollét szét nem választhatja azokat, kiket egy lélek éltet, egy szeretet fűz össze..." \n(Szt. Bernát)`,
     phone: ['+36706149925', '+36705295390'],
     email: 'goher.zsuzsa@gmail.com',
   },
