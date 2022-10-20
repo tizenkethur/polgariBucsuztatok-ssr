@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   width: 100%;
   color: rgb(159, 32, 0);
   font-size: 18px;
@@ -23,12 +22,16 @@
     }
   }
 
+  @include custom(850px) {
+    max-width: 850px;
+  }
+
   #pic-quote-contact {
     display: flex;
     flex-direction: column;
-    // justify-content: space-between;
-    // align-items: center;
-    // padding: 20px 20px 0 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
     width: 100%;
     margin-top: 70px;
 
@@ -36,8 +39,45 @@
       height: 400px;
       flex-direction: row;
       justify-content: space-between;
-      align-items: center;
-      margin: 160px 0 20px 10px;
+      align-items: flex-end;
+      margin: 50px 10px 20px 10px;
+    }
+
+    #quote {
+      @include md {
+        margin-left: -10px;
+        font-size: 16px;
+      }
+      blockquote {
+        background-color: whitesmoke;
+        max-width: 300px;
+        border: solid 2px rgba(159, 32, 0, 0.8);
+        line-height: 1.5em;
+        margin: 20px 0;
+        padding: 20px;
+        position: relative;
+        text-align: center;
+        white-space: pre-line;
+        &:before {
+          background-color: whitesmoke;
+          bottom: -10%;
+          content: "";
+          left: 0;
+          position: absolute;
+          right: 0;
+          top: -10%;
+          transform: rotate(-2deg) skew(5deg);
+
+          @include md {
+            padding: 8px;
+            transform: none;
+          }
+        }
+        > * {
+          position: relative;
+          z-index: 1;
+        }
+      }
     }
     #person-card {
       display: flex;
@@ -46,17 +86,14 @@
       justify-content: center;
       width: 200px;
       height: 300px;
-      margin: 40px 0;
+      margin: 20px 0;
       border-radius: 4px;
-      // padding: 20px 0;
       cursor: pointer;
       box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2),
         0 2px 8px 0 rgba(0, 0, 0, 0.14), 0 4px 8px -1px rgba(0, 0, 0, 0.12);
 
       @include md {
-        align-self: flex-start;
-        margin-top: -40px;
-        margin-right: 10px;
+        margin-bottom: 20px;
       }
       #name-holder {
         font-size: 20px;
@@ -79,66 +116,28 @@
       }
     }
 
-    #quote {
-      @include md {
-        // align-self: flex-start;
-        font-size: 16px;
-      }
-      blockquote {
-        background-color: whitesmoke;
-        // width: 250px;
-        border: solid 2px rgba(159, 32, 0, 0.8);
-        line-height: 1.5em;
-        margin: 20px 0;
-        padding: 20px;
-        position: relative;
-        text-align: center;
-        white-space: pre-line;
-        &:before {
-          background-color: whitesmoke;
-          bottom: -10%;
-          content: "";
-          left: 0;
-          position: absolute;
-          right: 0;
-          top: -10%;
-          transform: rotate(-2deg) skew(5deg);
-
-          @include md {
-            padding: 8px;
-            transform: none;
-            // transform: rotate(-3deg) skew(3deg);
-            // width: 100%;
-            // font-size: 12px;
-          }
-        }
-        > * {
-          position: relative;
-          z-index: 1;
-        }
-      }
-    }
-
     #contact {
       display: flex;
       flex-direction: column;
-      // align-items: center;
       height: auto;
       padding-bottom: 15px;
       color: rgb(252, 249, 249);
       background-color: rgba(159, 32, 0, 0.7);
-      // opacity: 70%;
       text-align: justify;
       font-weight: bolder;
+      max-width: 300px;
       border-radius: 4px;
-      margin: 40px 0;
+      margin: 20px 0;
       box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2),
         0 2px 8px 0 rgba(0, 0, 0, 0.14), 0 4px 8px -1px rgba(0, 0, 0, 0.12);
 
       @include md {
-        margin-left: 10px;
-        margin-bottom: -5px;
-        align-self: flex-end;
+        margin: 10px;
+        margin-bottom: 20px;
+      }
+
+      @include custom(920px) {
+        margin: 10px 0 20px 10px;
       }
 
       #title {
@@ -170,16 +169,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90vw;
+    margin: 40px 0 20px 0;
 
     @include md {
+      // padding: 10px;
       margin-top: 20px;
+      max-width: 850px;
+      text-align: center;
+      // width: 40vw;
     }
 
     #introduction {
       text-align: justify;
-      // margin-bottom: 40px;
       font-size: 18px;
-      padding: 10px;
+      margin-bottom: 20px;
 
       a {
         color: rgb(159, 32, 0);
@@ -194,7 +198,6 @@
 
     #media {
       display: flex;
-      // justify-content: space-around;
       flex-direction: column;
       align-items: center;
       padding: 10px;

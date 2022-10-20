@@ -67,7 +67,7 @@ export const farewellPersonData: farewellPerson[] = [
     pillanataihoz. Minden gondolatom, koncepcióm, elvem: a
     Nők Lapja cikkében olvasható.
     Köszönöm, ha megtisztelnek bizalmukkal.`,
-    quote: `"...Sem távolság, sem halál,\n avagy távollét szét nem választhatja\n azokat, kiket egy lélek éltet, egy szeretet fűz össze..." \n(Szt. Bernát)`,
+    quote: `"...Sem távolság, sem halál, \navagy távollét szét nem választhatja \nazokat, kiket egy lélek éltet, \negy szeretet fűz össze..." \n(Szt. Bernát)`,
     phone: ['+36706149925', '+36705295390'],
     email: 'goher.zsuzsa@gmail.com',
   },
@@ -116,7 +116,7 @@ Szabó Lőrinc`,
   család érzéseit, emlékeit a „lélek hangjait”; a megfelelően kiválasztott versekkel és
   idézetekkel emelve a beszéd meghittségét, színvonalát.
   Bővebb felvilágosításért kérem keresse fel honlapomat!`,
-    quote: `„Gondolj rá úgy ahogy régen, ha fáj. \nMert nem halt meg, \nCsupán messze jár.”`,
+    quote: `„Gondolj rá úgy ahogy régen,\nha fáj. \nMert nem halt meg, \nCsupán messze jár.”`,
     phone: ['+36303648874'],
     email: 'kotolakbea@polgaribucsuztato.hu',
     web: 'https://www.polgaribucsuztato.hu',
@@ -141,10 +141,10 @@ Szabó Lőrinc`,
   A búcsúztatónak meg kell teremtenie azt a pillanatot, mikor a világ elcsendesül és minden
   Róla, a távozóról szól. 
   Én mindig erre törekszem…`,
-    quote: `„Egyetlen voltál e világon s múlhatatlanul örök.
-Elmentél? Igen. Te messze jársz, s én itt ringatlak az ölemben
-s ha fáradt leszek, átadlak a fiamnak s ő így tovább
-itt voltál s nem tűnhetsz el többé a szívünkből és a szemünkből.” \nKassák Lajos`,
+    quote: `„Egyetlen voltál e világon \ns múlhatatlanul örök.
+Elmentél? Igen. Te messze jársz, \ns én itt ringatlak az ölemben
+s ha fáradt leszek, átadlak a fiamnak \ns ő így tovább
+itt voltál s nem tűnhetsz el többé \na szívünkből és a szemünkből.” \nKassák Lajos`,
     phone: ['+36203633360'],
     email: 'bucsuztatas1@hotmail.com',
     videoId: 'IYoOZQL3YaI',
@@ -163,7 +163,7 @@ itt voltál s nem tűnhetsz el többé a szívünkből és a szemünkből.” \n
   Az évek során számos család búcsúzott hozzátartozójától a közreműködésemmel – és igen sokan, – akár hosszú évek múltán, több alkalommal is – újra megkeresnek,
   ha veszteség éri őket, ha ismét búcsúzni kényszerülnek.
   A visszajelzések alapján a hozzátartozók pozitívan értékelik az empátia, a jó kapcsolatteremtő képesség mellett, – sokéves tapasztalatomat, felkészültségemet; és a nyugalmat, amivel igyekszem átsegíteni a gyászolókat ezen a nehéz órán, amit szerettük utolsó útja jelent számukra.`,
-    quote: '„Az utolsó szavak melege a semmibe is elkísér…”',
+    quote: '„Az utolsó szavak melege \na semmibe is elkísér…”',
     phone: ['+36302527559'],
     email: 'nagyklara@gmail.com',
     web: 'https://www.bucsuztato.hu',
