@@ -1,13 +1,10 @@
-<div id="person-card" routerLink="/introduction/{{ personData.name }}">
+<div id="person-card" routerLink="/bemutatkozas/{{ personData.name }}">
   <div id="name-holder">
     <p>
       {{ personData.name }}
     </p>
   </div>
   <div id="image-holder">
-    <img
-      [src]="personData.pictureUrl"
-      alt="Picture of {{ personData.name }}"
-    />
+    <img [src]="personData.pictureUrl" alt="Picture of {{ personData.name }}" />
   </div>
 </div>

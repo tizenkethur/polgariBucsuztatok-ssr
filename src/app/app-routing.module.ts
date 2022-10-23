@@ -2,21 +2,21 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'main', pathMatch: 'full' },
+  { path: '', redirectTo: 'fooldal', pathMatch: 'full' },
   {
-    path: 'main',
+    path: 'fooldal',
     loadChildren: () =>
       import('../app/features/main-page/main.module').then((m) => m.MainModule),
   },
   {
-    path: 'introduction',
+    path: 'bemutatkozas',
     loadChildren: () =>
       import('../app/features/introduction-page/introduction-page.module').then(
         (m) => m.IntroductionPageModule
       ),
   },
   {
-    path: 'introduction/:name',
+    path: 'bemutatkozas/:name',
     loadChildren: () =>
       import('../app/features/personal/personal.module').then(
         (m) => m.PersonalModule
