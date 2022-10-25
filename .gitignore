@@ -2,8 +2,6 @@
 
 # Compiled output
 /dist
-/deploy-dist
-/deploy-dist.zip
 /tmp
 /out-tsc
 /bazel-out

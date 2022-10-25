@@ -3,7 +3,7 @@ export const farewellPersonData: farewellPerson[] = [
   {
     id: 1,
     name: 'Felber Gabriella',
-    pictureUrl: '../assets/farewellPersons/Felber_Gabriella.jpg',
+    pictureUrl: '../assets/Felber_Gabriella.jpg',
     introduction: `Felber Gabriella vagyok.
       2013 óta vezetek polgári búcsúztató szertartásokat.
       Operaénekes előadóművészként, igen korán ráéreztem az
@@ -57,7 +57,7 @@ export const farewellPersonData: farewellPerson[] = [
   {
     id: 2,
     name: 'Gohér Zsuzsa',
-    pictureUrl: '../assets/farewellPersons/Gohér_Zsuzsa.jpg',
+    pictureUrl: '../assets/Gohér_Zsuzsa.jpg',
     introduction: `Több, mint 25 éve próbálok segíteni – legjobb tudásom és
     érzéseim szerint – abban, hogy a „végtisztesség” valóban
     tisztesség legyen.
@@ -74,7 +74,7 @@ export const farewellPersonData: farewellPerson[] = [
   {
     id: 3,
     name: 'Hangay Mária',
-    pictureUrl: '../assets/farewellPersons/Hangay_Marica.jpg',
+    pictureUrl: '../assets/Hangay_Marica.jpg',
     introduction: `Hangay Mária vagyok. Az Eötvös Lóránd Tudományegyetemen diplomáztam
     esztétika-magyar szakon. 2004-ben az egyetemek között megrendezett országos szépkiejtési
     versenyen Kazinczy-díjat szereztem, ez megerősített abban, hogy bármerre is sodor majd az
@@ -103,7 +103,7 @@ Szabó Lőrinc`,
   {
     id: 4,
     name: 'Kotolák Beáta',
-    pictureUrl: '../assets/farewellPersons/Kotolák_Beáta.jpg',
+    pictureUrl: '../assets/Kotolák_Beáta.jpg',
     introduction: `Kotolák Beáta vagyok.
   Több mint két évtizede, 2000 óta foglalkozom polgári búcsúztatással. Pályafutásom,
   valamint a saját tapasztalataim alapján, a halál a szeretett személy elvesztése, a
@@ -125,7 +125,7 @@ Szabó Lőrinc`,
   {
     id: 5,
     name: 'Korsós László',
-    pictureUrl: '../assets/farewellPersons/Korsós_László.jpg',
+    pictureUrl: '../assets/Korsós_László.jpg',
     introduction: `Korsós László vagyok, 1979-ben születtem Budapesten. Újságíróként végeztem
   tanulmányaimat, de 2008 óta polgári búcsúztatással foglalkozom. 
   Munkám során mindig az a célom, hogy a hozzám forduló családok, méltóképpen tudjanak
@@ -153,7 +153,7 @@ itt voltál s nem tűnhetsz el többé \na szívünkből és a szemünkből.” 
   {
     id: 6,
     name: 'Nagy Klára',
-    pictureUrl: '../assets/farewellPersons/Nagy_Klára.jpg',
+    pictureUrl: '../assets/Nagy_Klára.jpg',
     introduction: `1992 óta foglakozom polgári búcsúztatással, ezzel a nehéz, ám fontos és szép feladattal.
   Pedagógus végzettséget szereztem, pszichológiát tanultam, és énekművészi tanulmányokat folytattam.
   A hangképzésnek, beszédművelésnek ma is, – napi szinten – hasznát veszem a munkám során. Kezdettől arra törekszem, hogy – versekkel,

@@ -2,9 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'fooldal', pathMatch: 'full' },
   {
-    path: 'fooldal',
+    path: '',
     loadChildren: () =>
       import('../app/features/main-page/main.module').then((m) => m.MainModule),
   },
