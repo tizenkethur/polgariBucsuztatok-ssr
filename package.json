@@ -10,7 +10,7 @@
     "dev:ssr": "ng run polgariBucsuztatok-ssr:serve-ssr",
     "serve:ssr": "node dist/polgariBucsuztatok-ssr/server/main.js",
     "build:ssr": "ng build && ng run polgariBucsuztatok-ssr:server",
-    "prerender": "ng run polgariBucsuztatok-ssr:prerender"
+    "prerender": "ng run polgariBucsuztatok-ssr:prerender --routes-file routes.txt"
   },
   "private": true,
   "dependencies": {

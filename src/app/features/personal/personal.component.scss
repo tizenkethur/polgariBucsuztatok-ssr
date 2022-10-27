@@ -93,7 +93,9 @@
       height: 300px;
       margin: 20px 0;
       border-radius: 4px;
+      padding: 20px 0;
       cursor: pointer;
+      overflow: hidden;
       box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2),
         0 2px 8px 0 rgba(0, 0, 0, 0.14), 0 4px 8px -1px rgba(0, 0, 0, 0.12);
 
@@ -109,14 +111,11 @@
       }
 
       #image-holder {
-        display: flex;
-        align-items: center;
-        width: 150px;
-        height: 198px;
+        max-width: 150px;
 
         img {
           width: 100%;
-          height: 100%;
+          height: 198px;
         }
       }
     }

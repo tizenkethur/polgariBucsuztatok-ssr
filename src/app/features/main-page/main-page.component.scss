@@ -20,6 +20,7 @@
   }
   #image-holder {
     width: 100%;
+    overflow: hidden;
     margin-bottom: 20px;
     mask-image: linear-gradient(
       to left,
