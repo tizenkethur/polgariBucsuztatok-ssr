@@ -1,4 +1,5 @@
 import { OnInit, Component } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { farewellPerson } from 'src/app/shared/models/farewellPersons';
 import { farewellPersonData } from 'src/db-data';
@@ -12,7 +13,11 @@ export class PersonalComponent implements OnInit {
   farewellPersonData: farewellPerson[] = farewellPersonData;
   currentPersonData: farewellPerson;
 
-  constructor(private route: ActivatedRoute) {
+  constructor(
+    private route: ActivatedRoute,
+    private title: Title,
+    private meta: Meta
+  ) {
     this.name = this.route.snapshot.paramMap.get('name');
   }
 
@@ -21,6 +26,12 @@ export class PersonalComponent implements OnInit {
       if (this.name === obj.name) {
         this.currentPersonData = obj;
       }
+    });
+
+    this.title.setTitle(`${this.name} - polgári búcsúztató`);
+    this.meta.updateTag({
+      name: 'description',
+      content: `${this.currentPersonData.quote}`,
     });
   }
 }
