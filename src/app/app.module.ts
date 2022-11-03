@@ -1,3 +1,4 @@
+import { AppShellRenderDirective } from './core/directives/app-shell-render.directive';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { NgModule } from '@angular/core';
@@ -9,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
+    AppShellRenderDirective
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

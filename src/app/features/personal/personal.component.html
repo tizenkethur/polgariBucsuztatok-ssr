@@ -1,12 +1,12 @@
 <div id="personal-container">
   <div id="button-holder">
     <button
-      mat-fab
-      routerLink="/bemutatkozas"
-      color="currentColor"
-      aria-label="Button with an arrow_back icon"
+    mat-fab
+    routerLink="/bemutatkozas"
+    color="currentColor"
+    aria-label="Button with an arrow_back icon"
     >
-      <mat-icon>arrow_back</mat-icon>
+    <mat-icon>arrow_back</mat-icon>
     </button>
   </div>
   <div id="pic-quote-contact">
@@ -23,12 +23,13 @@
       </div>
       <div id="image-holder">
         <img
-          [src]="currentPersonData.pictureUrl"
-          alt="Picture of {{ currentPersonData.name }}"
-          width="150px"
+        [src]="currentPersonData.pictureUrl"
+        alt="Picture of {{ currentPersonData.name }}"
+        width="150px"
         />
       </div>
     </div>
+      
     <div id="contact">
       <p id="title">Elérhetőségek</p>
       <div class="iconWithData">
