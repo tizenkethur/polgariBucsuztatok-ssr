@@ -165,7 +165,7 @@ itt voltál s nem tűnhetsz el többé \na szívünkből és a szemünkből.” 
   A visszajelzések alapján a hozzátartozók pozitívan értékelik az empátia, a jó kapcsolatteremtő képesség mellett, – sokéves tapasztalatomat, felkészültségemet; és a nyugalmat, amivel igyekszem átsegíteni a gyászolókat ezen a nehéz órán, amit szerettük utolsó útja jelent számukra.`,
     quote: '„Az utolsó szavak melege \na semmibe is elkísér…”',
     phone: ['+36302527559'],
-    email: 'nagyklara@gmail.com',
+    email: 'nagyklarav@gmail.com',
     web: 'https://www.bucsuztato.hu',
     facebook: 'https://www.facebook.com/profile.php?id=100083359909403',
     videoId: '0b4nuP3ZUOw',
