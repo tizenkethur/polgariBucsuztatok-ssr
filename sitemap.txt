@@ -1,0 +1,58 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+<loc>https://polgaribucsuztatok.com/</loc>
+<lastmod>2022-11-14T23:02:48+00:00</lastmod>
+</url>
+<url>
+<loc>https://polgaribucsuztatok.com/bemutatkozas/</loc>
+<lastmod>2022-11-14T23:02:49+00:00</lastmod>
+</url>
+<url>
+<loc>https://polgaribucsuztatok.com/bemutatkozas/Felber%20Gabriella/</loc>
+<lastmod>2022-11-14T23:02:49+00:00</lastmod>
+<video:video>
+    <video:title>Felber Gabriella, polgári búcsúztató
+</video:title>
+    <video:content_loc>
+      https://www.youtube.com/watch?v=-IaNqK6BCig</video:content_loc>
+  </video:video>
+</url>
+<url>
+<loc>https://polgaribucsuztatok.com/bemutatkozas/Gohér%20Zsuzsa/</loc>
+<lastmod>2022-11-14T23:02:49+00:00</lastmod>
+</url>
+<url>
+<loc>https://polgaribucsuztatok.com/bemutatkozas/Hangay%20Mária/</loc>
+<lastmod>2022-11-14T23:02:49+00:00</lastmod>
+</url>
+<url>
+<loc>https://polgaribucsuztatok.com/bemutatkozas/Kotolák%20Beáta/</loc>
+<lastmod>2022-11-14T23:02:49+00:00</lastmod>
+<video:video>
+    <video:title>Kotolák Beáta, polgári búcsúztató
+</video:title>
+    <video:content_loc>
+     https://www.youtube.com/watch?v=5BYdH1qGwVQ</video:content_loc>
+  </video:video>
+</url>
+<url>
+<loc>https://polgaribucsuztatok.com/bemutatkozas/Korsós%20László/</loc>
+<lastmod>2022-11-14T23:02:49+00:00</lastmod>
+<video:video>
+    <video:title>Korsós László, polgári búcsúztató
+</video:title>
+    <video:content_loc>
+     https://www.youtube.com/watch?v=IYoOZQL3YaI</video:content_loc>
+  </video:video>
+</url>
+<url>
+<loc>https://polgaribucsuztatok.com/bemutatkozas/Nagy%20Klára/</loc>
+<lastmod>2022-11-14T23:02:49+00:00</lastmod>
+<video:video>
+    <video:title>Nagy Klára - polgári búcsúztató Ha egy napon már nem leszek...
+</video:title>
+    <video:content_loc>
+     https://www.youtube.com/watch?v=0b4nuP3ZUOw</video:content_loc>
+  </video:video>
+</url>
+</urlset>

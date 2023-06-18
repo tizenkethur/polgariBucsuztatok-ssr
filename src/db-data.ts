@@ -168,6 +168,6 @@ itt voltál s nem tűnhetsz el többé \na szívünkből és a szemünkből.” 
     email: 'nagyklarav@gmail.com',
     web: 'https://www.bucsuztato.hu',
     facebook: 'https://www.facebook.com/profile.php?id=100083359909403',
-    videoId: '0b4nuP3ZUOw',
+    videoId: 'ENaA0fNIuOg',
   },
 ];
